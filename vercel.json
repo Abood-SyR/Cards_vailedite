@@ -1,13 +1,14 @@
 {
-    "builds": [{
-        "src":"api/main.py",
+    "builds": [
+        {
+        "src":"cobonts/main.py",
         "use": "@vercel/python"
         }
     ],
     "routes": [
         {
         "src": "/(.*)",
-        "dest": "api/main.py"
+        "dest": "cobonts/main.py"
         }
     ]
 }
