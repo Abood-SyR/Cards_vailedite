@@ -1,14 +1,8 @@
 {
-    "builds": [
+    "REWRITES": [
         {
-        "src":"cobonts/main.py",
-        "use": "@vercel/python"
-        }
-    ],
-    "routes": [
-        {
-        "src": "/(.*)",
-        "dest": "cobonts/main.py"
+        "SOURCE":"/(.*)",
+        "DESTINATION": "/"
         }
     ]
 }
